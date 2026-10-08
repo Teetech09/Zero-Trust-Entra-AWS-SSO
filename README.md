@@ -1,6 +1,6 @@
 
 
-## Project Overview
+# Project Overview
 
 This project was completed in June 2025 as the final capstone project of the *TechStylers Microsoft Cloud Security Bootcamp (Identity, Data & AI)*. Documented retrospectively on GitHub in October 2026.
 
