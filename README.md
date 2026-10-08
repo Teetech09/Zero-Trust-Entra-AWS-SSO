@@ -11,6 +11,19 @@ The project focused on securing cloud access through Multi-Factor Authentication
 Using *Oringo Ltd.* as our business case study, we explored how organizations can centrally manage employee identities, reduce reliance on separate AWS credentials, and enforce least-privilege access.
 
 The project provided hands-on experience in cloud security, identity management, technical troubleshooting, teamwork, and leadership.
+
+
+# Project Documentation
+
+| Section | Description |
+|---|---|
+| [Architecture](architecture/README.md) | Zero Trust identity federation architecture and design |
+| [Technical Implementation](implementation/README.md) | Microsoft Entra ID, AWS IAM, SAML SSO, MFA, Conditional Access and SCIM |
+| [Security Controls](security-controls/README.md) | Security controls and framework mapping |
+| [Troubleshooting](troubleshooting/README.md) | Technical challenges, findings and successful testing outcomes |
+| [Project Evidence](evidence/README.md) | Original Helix Group presentation and supporting evidence |
+| [Leadership and Lessons Learned](lessons-learned/README.md) | Team leadership, technical reflections and key lessons |
+  
   
 
 
