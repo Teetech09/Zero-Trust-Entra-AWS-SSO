@@ -11,30 +11,30 @@ The project focused on strengthening identity security by integrating Microsoft 
 # Multi-Factor Authentication (MFA)
 *Control:* Microsoft Authenticator MFA
 
-*Purpose:* Add an extra layer of authentication to reduce unauthorized access when user credentials are compromised.
+*Purpose: Add an extra layer of authentication to reduce unauthorized access when user credentials are compromised.
 
 *Project Activity:* The team configured MFA requirements through Microsoft Entra ID.
 
 # Role-Based Access Control (RBAC)
 *Control: Microsoft Entra ID groups mapped to AWS IAM roles
 
-**Purpose: Restrict access based on users' responsibilities.
+*Purpose: Restrict access based on users' responsibilities.
 
-**Project Activity: The team configured three groups: AdminAccess, DevReadOnly, and FinanceViewer, each associated with an intended AWS access level.
+*Project Activity: The team configured three groups: AdminAccess, DevReadOnly, and FinanceViewer, each associated with an intended AWS access level.
 
 # Conditional Access
-**Control:** Microsoft Entra Conditional Access policies
+**Control: Microsoft Entra Conditional Access policies
 
-**Purpose:** Evaluate access requests based on contextual signals such as location, device compliance, and sign-in risk.
+**Purpose: Evaluate access requests based on contextual signals such as location, device compliance, and sign-in risk.
 
-**Project Activity:** The team configured Conditional Access policies as part of its Zero Trust design.
+**Project Activity: The team configured Conditional Access policies as part of its Zero Trust design.
 
 # Federated Authentication
 *Control: SAML-based Single Sign-On (SSO)
 
 *Purpose: Centralize authentication and reduce the need to manage separate AWS user passwords.
 
-*Project Activity:* The team configured SAML federation between Microsoft Entra ID and AWS. A SAML token was generated during testing, but successful AWS console access was not confirmed.
+*Project Activity: The team configured SAML federation between Microsoft Entra ID and AWS. A SAML token was generated during testing, and successful AWS console access was confirmed.
 
 # Centralized Identity Management
 *Control: Microsoft Entra ID identity and group management
@@ -58,7 +58,7 @@ These mappings describe conceptual alignment with security requirements. They do
 
 - The final presentation records a generated SAML token but unsuccessful AWS console access.
 - Successful end-to-end identity federation was not verified.
-- The presentation does not establish that every Conditional Access scenario was tested successfully.
+- Conditional Access policies were successfully tested during the final project presentation in June 2025. However, successful end-to-end AWS federated login was not achieved.
 - SCIM provisioning was reported as enabled, but successful synchronization was not independently demonstrated.
 - Administrative access was included in the role design and requires careful restriction and monitoring in a production environment.
 
